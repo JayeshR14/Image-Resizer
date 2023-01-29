@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Resize</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="imageResize.css">
+</head>
+<body>
+  <!-- <div class="main"> -->
+    <div class="up-bx">
+      <div class="up-img-bx">
+        <input type="file" id="file" accept="image/*" hidden>
+        <img src="logo/upload.png" alt="" id="upimg">
+        <p>Click here to upload Image</p>
+      </div>
+      <div class="propr">
+        <div class="hw">
+            <div class="width">
+              <p>Width</p>
+              <input type="text" id="width">
+            </div>
+            <div class="height">
+              <p>Height</p>
+              <input type="text" id="height">
+            </div>
+        </div>
+        <div class="checks">
+          <div class="asr">
+             <input type="checkbox" name="CheckRes" id="checkRes" checked>  
+             <label for="CheckRes">Aspect Ratio</label>  
+          </div>
+          <div class="redq">
+            <input type="checkbox" name="redq" id="redq">  
+            <label for="redq">Reduce Quality</label>
+          </div>
+        </div>
+        <button id="btn">Download</button>
+      </div>
+    </div>
+  <!-- </div> -->
+   <script src="imageResize.js"></script>
+</body>
+</html>

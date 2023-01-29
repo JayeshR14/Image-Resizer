@@ -1,0 +1,96 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+p{
+  margin: 0;
+}
+.up-bx{
+ display:flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height:500px;
+ width:400px;
+ margin-top:50px;
+ border-radius: 12px;
+ box-shadow:1px 1px 10px rgba(0,0,0,0.4);
+}
+.up-img-bx.active p{
+  display: none;
+}
+.up-img-bx{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border:dotted 2px black ; 
+  height:230px;
+  border-radius: 10px;
+  width: 330px;
+  margin-bottom: 15px;
+}
+.redq{
+   margin-left:50px;
+}
+.up-img-bx img{
+  height:100px;
+}
+.asr label,.redq label{
+   font-size: 19px;
+}
+input{
+  width:140px;
+}
+.propr{
+  width:330px;
+  padding:0px 20px 0px 20px;
+}
+#checkRes,#redq{
+  margin: 0;
+  width: 15px;
+  height:15px;
+
+}
+.hw{
+  width:330px;
+  display: flex;
+  justify-content: space-between;
+}
+.checks{
+  display: flex;
+  margin-top: 20px;
+}
+button{
+  height:50px;
+  width:330px;
+  margin-top: 20px;
+  outline:none;
+  background-color: transparent;
+  font-size: 18px;
+  border:solid 2px rgb(167, 166, 166);
+}
+.active{
+  border:none;
+}
+.active img{
+  height:250px;
+  width:330px;
+  border:none;
+}
+#width,#height{
+  height:42px;
+  outline: none;
+  padding-left:10px;
+  font-size: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  border:solid 2px rgb(206, 203, 203);
+}
+.width p,.height p{
+  font-size: 21px;
+  margin-bottom: 10px;
+  margin-top: 12px;
+}
