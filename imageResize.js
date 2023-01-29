@@ -36,6 +36,8 @@ const downloadAndResize = () => {
      a.href = canvas.toDataURL("imgae/jpeg",imgQuality);
      a.download = new Date().getTime();
      a.click();
+     selImg.classList.remove("active");
+     window.location.reload();
 }
 
 btn.addEventListener('click',downloadAndResize)
